@@ -33,4 +33,4 @@ This application is designed to facilitate the validation of text recognition in
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/image-text-validation-app.git
+   https://github.com/harshlunia7/Image-Text-Recognition-Validation-App.git
