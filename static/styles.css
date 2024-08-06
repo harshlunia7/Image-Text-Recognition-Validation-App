@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    font-size: x-large;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+}
+.image-label-unit {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    width: 100vw;
+    justify-content: center;
+}
+.image-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensure image doesn't overflow the container */
+    position: relative;
+} 
+
+.image-container img {
+    object-fit: contain;
+    width: 80%;
+    height: 80%;
+    
+}
+.interaction-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    height: 290px;
+    width: 30vw;
+}
+.progress {
+    margin-bottom: 20px;
+}
+.submit-button {
+    margin-top: 40px;
+    height: 40px;
+    width: 80px;
+    margin-left: 80%;
+}
